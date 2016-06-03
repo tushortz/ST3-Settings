@@ -1,0 +1,5 @@
+{
+    "cmd": ["sphinx-build", "-b", "html", "$filedir", "_build/html"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "text.restructuredtext"
+}

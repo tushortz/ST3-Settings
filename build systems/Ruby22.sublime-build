@@ -1,0 +1,4 @@
+{
+    "cmd": ["ruby2.1", "$file"],
+    "selector": "source.ruby, source.erb, source.rabl, source.haml, source.rb",
+}

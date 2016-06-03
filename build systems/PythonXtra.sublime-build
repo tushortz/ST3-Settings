@@ -1,0 +1,22 @@
+{
+    "cmd": ["python3.4", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "variants": [
+
+      { "name": "Python 3.5",
+        "cmd": ["python3.5", "-u", "$file"],
+        "shell": true
+      },
+
+      { "name": "Default",
+        "cmd": ["python -u \"$file\""],
+        "shell": true
+      },
+
+    	{ "name": "List Files",
+          "cmd": ["ls"],
+          "shell": true
+      },
+    ]
+}
